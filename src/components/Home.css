@@ -1,0 +1,77 @@
+/* Home.css */
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #222;
+  }
+  
+  .intro-container {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .intro-text {
+    flex: 1;
+    color: #fff;
+  }
+  
+  .intro-text h1 {
+    font-size: 2.5em;
+    color: #ff4081;
+  }
+  
+  .intro-text p {
+    font-size: 1.5em;
+    margin-top: 0.5em;
+    color: #fff;
+  }
+  
+  .button-container {
+    margin-top: 1em;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .email-btn {
+    background-color: #ff4081;
+  }
+  
+  .portfolio-btn {
+    background-color: #333;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  .profile-image img {
+    flex: 1;
+    max-width: 50%;
+    border-radius: 50%;
+  }
+  
+  @media (max-width: 800px) {
+    .intro-container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .profile-image img {
+      max-width: 75%;
+      margin-top: 20px;
+    }
+  }
+  
